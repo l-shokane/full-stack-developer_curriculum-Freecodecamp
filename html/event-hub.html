@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Hub</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to the Event Hub</h1>
+            <p>Your central place for all upcoming events and activities.</p>      
+            <nav>
+                <ul>
+                    <li><a href="#upcoming-events">Upcoming Events</a></li>
+                    <li><a href="#past-events">Past Events</a></li>
+                    <li><a href="#submit-event">Submit an Event</a></li>
+                </ul>
+            </nav>     
+        </header>
+        <main>
+            <section id="upcoming-events">
+                <h2>Upcoming Events</h2>
+                <article>
+                    <h3> Girl Tech Talk</h3>
+                    <p>Date: July 15, 2024</p>
+                    <p>Location: Community Center Hall A</p>
+                    <p>Description: A tech talk focused on empowering young girls in technology.</p>
+                </article>
+                <article>
+                    <h3> Summer Coding Bootcamp</h3>
+                    <p>Date: August 1-15, 2024</p>
+                    <p>Location: Online</p>
+                    <p>Description: A two-week intensive coding bootcamp for beginners.</p>
+                </article>
+            </section>
+            <section id="past-events">
+                <h2>Past Events</h2>
+                <article>
+                    <h3> Spring Hackathon</h3>
+                    <p>Date: May 10-12, 2024</p>
+                    <p>Location: Tech Hub</p>
+                    <p>Description: A 48-hour hackathon where participants built innovative tech solutions.</p>
+                </article>
+                <article>
+                    <h3> AI Workshop</h3>
+                    <p>Date: April 5, 2024</p>
+                    <p>Location: Innovation Lab</p>
+                    <p>Description: A workshop exploring the basics of artificial intelligence and machine learning.</p>
+                </article>  
+            </section>
+            <section id="submit-event">
+                <h2>Submit an Event</h2>
+                <form action="#" method="post">
+                    <label for="event-name">Event Name:</label><br>
+                    <input type="text" id="event-name" name="event-name" required><br><br>
+                    <label for="event-date">Date:</label><br>
+                    <input type="date" id="event-date" name="event-date" required><br><br>
+                    <label for="event-location">Location:</label><br>
+                    <input type="text" id="event-location" name="event-location" required><br><br>
+                    <label for="event-description">Description:</label><br>
+                    <textarea id="event-description" name="event-description" rows="4" cols="50" required></textarea><br><br>
+                    <input type="submit" value="Submit">
+               </body>
+</html>
